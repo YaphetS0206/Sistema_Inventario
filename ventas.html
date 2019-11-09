@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="es" class="mdl-js">
+<html lang="es">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Home</title>
+	<title>Sales</title>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/sweetalert2.css">
 	<link rel="stylesheet" href="css/material.min.css">
@@ -16,7 +16,6 @@
 	<script src="js/sweetalert2.min.js" ></script>
 	<script src="js/jquery.mCustomScrollbar.concat.min.js" ></script>
 	<script src="js/main.js" ></script>
-
 </head>
 <body>
 	<!-- navLateral -->
@@ -62,7 +61,7 @@
 								</a>
 							</li>
 							<li class="full-width">
-								<a href="client.html" class="full-width">
+								<a href="clientes.html" class="full-width">
 									<div class="navLateral-body-cl">
 										<i class="zmdi zmdi-accounts"></i>
 									</div>
@@ -145,32 +144,43 @@
 		</div>
 	</section>
 	<!-- Contenido de la Pagina -->
-    <section class="full-width pageContent">
-        <!--navbar-->
-       <div class="full-width navBar">
-            <div class="full-width navBar-options">
-                 <i class="zmdi zmdi-swap btn-menu" id="btn-menu"></i>   
-             <div class="mdl-tooltip" for="btn-menu">Ocultar / Mostrar</div>
-                <nav class="navBar-options-list">
-                    <ul class="list-unstyle">
-                        <li class="btn-Notification" id="notifications">
-                            <i class="zmdi zmdi-notifications"></i>
-                            <div class="mdl-tooltip" for="notifications">Notificationes</div>
-                        </li>
-                        <li class="btn-exit" id="btn-exit">
-                            <i class="zmdi zmdi-power"></i>
-                            <div class="mdl-tooltip" for="btn-exit">Salir</div>
-                        </li>
-                        <li class="text-condensedLight noLink" ><small>Usuario</small></li>
-                        <li class="noLink">
-                            <figure>
-                                <img src="img/avatar-male.png" alt="Avatar" class="img-responsive">
-                            </figure>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </section>
+	<section class="full-width pageContent">
+		<!-- navBar -->
+		<div class="full-width navBar">
+			<div class="full-width navBar-options">
+				<i class="zmdi zmdi-swap btn-menu" id="btn-menu"></i>	
+				<div class="mdl-tooltip" for="btn-menu">Ocultar / Mostrar MENU</div>
+				<nav class="navBar-options-list">
+					<ul class="list-unstyle">
+						<li class="btn-Notification" id="notifications">
+							<i class="zmdi zmdi-notifications"></i>
+							<div class="mdl-tooltip" for="notifications">Notificationes</div>
+						</li>
+						<li class="btn-exit" id="btn-exit">
+							<i class="zmdi zmdi-power"></i>
+							<div class="mdl-tooltip" for="btn-exit">Cerrar Seccion</div>
+						</li>
+						<li class="text-condensedLight noLink"><small>Usuario</small></li>
+						<li class="noLink">
+							<figure>
+								<img src="img/avatar-male.png" alt="Avatar" class="img-responsive">
+							</figure>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<!-- Contenido por dentro -->
+			<section class="full-width header-well">
+			<div class="full-width header-well-icon">
+				<i class="zmdi zmdi-shopping-cart"></i>
+			</div>
+			<div class="full-width header-well-text">
+				<p class="text-condensedLight">
+					Contenido de las ventas que se han vendido en todo este tiempo llendo por el inventario
+				</p>
+			</div>
+		</section>
+	</section>
 </body>
 </html>
